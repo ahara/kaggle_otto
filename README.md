@@ -1,6 +1,6 @@
 # Kaggle Otto Group Product Classification Challenge
 
-Solution for achieving place 67/3590 on private leader board.
+Solution for achieving place 67th/3590 on private leaderboard.
 
 It contains:
 * Neural Networks
