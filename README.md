@@ -10,6 +10,6 @@ It contains:
 * Regularized Greedy Forest
 * Linear model
 
-However only top four kind of algorithms were used. To build final ensemble.
+However only top four kind of algorithms were used to build final ensemble.
 
-You can find more information on my [blog](http://blog.aicry.com/kaggle-otto-group-product-classification-challenge/)
+You can find more information on my [blog](http://blog.aicry.com/kaggle-otto-group-product-classification-challenge/).
