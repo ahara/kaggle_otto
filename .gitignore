@@ -1,0 +1,5 @@
+# Python compiled  and temporary files
+*.py[c~]
+
+# PyCharm project files
+otto/.idea/*
