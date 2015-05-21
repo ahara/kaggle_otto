@@ -78,8 +78,9 @@ class XGBoost(BaseEstimator):
 if __name__ == '__main__':
     train, labels, test, _, _ = utils.load_data()
 
-    clf = XGBoost(max_iterations=300, max_depth=12, min_child_weight=5.091477367137238, row_subsample=.9433677752403343,
-                 min_loss_reduction=.43012018278610714, column_subsample=.5180617200412034, step_size=.1)
+    clf = XGBoost(max_iterations=4800, max_depth=12, min_child_weight=4.9208250938262745,
+                  row_subsample=.9134478530382129, min_loss_reduction=.5132278416508804,
+                  column_subsample=.730128689911957, step_size=.009)
 
     if MODE == 'cv':
         scores, predictions = utils.make_blender_cv(clf, train, labels, calibrate=False)
